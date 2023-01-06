@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Murata NME0505SC
+#
+DEF NME0505SC U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "NME0505SC" 0 300 50 H V L CNN 
+F2 "Murata-NME0505SC-0-0-*" 0 400 50 H I L CNN 
+F3 "https://power.murata.com/datasheet?/data/power/ncl/kdc_nme.pdf" 0 500 50 H I L CNN 
+F4 "IC" 0 600 50 H I L CNN "category"
+F5 "Integrated Circuits (ICs)" 0 700 50 H I L CNN "device class L1"
+F6 "Power Management ICs" 0 800 50 H I L CNN "device class L2"
+F7 "Voltage Regulators - Switching" 0 900 50 H I L CNN "device class L3"
+F8 "CONV DC/DC 1W 5VIN 5VOUT SIP SGL" 0 1000 50 H I L CNN "digikey description"
+F9 "811-1474-5-ND" 0 1100 50 H I L CNN "digikey part number"
+F10 "10.25mm" 0 1200 50 H I L CNN "height"
+F11 "yes" 0 1300 50 H I L CNN "lead free"
+F12 "cb89640f9f51cc7c" 0 1400 50 H I L CNN "library id"
+F13 "Murata" 0 1500 50 H I L CNN "manufacturer"
+F14 "5.5V" 0 1600 50 H I L CNN "max supply voltage"
+F15 "4.5V" 0 1700 50 H I L CNN "min supply voltage"
+F16 "Isolated DC/DC Converters 5V to 5V 200mA Single Output" 0 1800 50 H I L CNN "mouser description"
+F17 "580-NME0505SC" 0 1900 50 H I L CNN "mouser part number"
+F18 "286mA" 0 2000 50 H I L CNN "nominal supply current"
+F19 "1" 0 2100 50 H I L CNN "number of outputs"
+F20 "200mA" 0 2200 50 H I L CNN "output current"
+F21 "5V" 0 2300 50 H I L CNN "output voltage"
+F22 "SIP4" 0 2400 50 H I L CNN "package"
+F23 "yes" 0 2500 50 H I L CNN "rohs"
+F24 "110kHz" 0 2600 50 H I L CNN "switching frequency"
+F25 "Buck" 0 2700 50 H I L CNN "switching topology"
+F26 "+85°C" 0 2800 50 H I L CNN "temperature range high"
+F27 "-40°C" 0 2900 50 H I L CNN "temperature range low"
+DRAW
+X +VIN 2 100 0 100 R 40 40 1 1 W 
+X -VIN 1 100 -100 100 R 40 40 1 1 W 
+X +VOUT 4 1100 0 100 L 40 40 1 1 W 
+X -VOUT 3 1100 -100 100 L 40 40 1 1 W 
+S 200 100 1000 -200 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

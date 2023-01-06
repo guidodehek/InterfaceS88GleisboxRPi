@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP KMDGX-10S-BS
+D Circular DIN Connectors 10P R/A FULL SHIELD GOLD PLATED
+K
+F 
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS-90000-011
+D MOD JACK RJ45 8P8C SHLD
+K
+F https://www.belfuse.com/resources/drawings/stewartconnector/dr-STW-SS-90000-011.pdf
+$ENDCMP
+#
+#End Doc Library
