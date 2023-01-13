@@ -4437,7 +4437,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 31.75 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d6ce0920-1ada-42e0-a30f-8a5cc1daf9d7)
-    (property "Reference" "J7" (id 0) (at 31.75 100.33 0))
+    (property "Reference" "J5" (id 0) (at 31.75 100.33 0))
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 31.75 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4846,7 +4846,7 @@
       (reference "J4") (unit 1) (value "RJ45") (footprint "ul_215877-1:215877-1")
     )
     (path "/d6ce0920-1ada-42e0-a30f-8a5cc1daf9d7"
-      (reference "J7") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
+      (reference "J5") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/a7026a4f-d86b-4a4e-93c4-6e804f8dcb18"
       (reference "R1") (unit 1) (value "120") (footprint "Resistor_SMD:R_0805_2012Metric")
