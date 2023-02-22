@@ -1,0 +1,12 @@
+
+PiOS
+Name	Date	MiB
+Rocrail-3043-PiOS11-ARMHF
+
+PiOS
+Name	Date	MiB
+Rocrail-3043-PiOS11-ARMHF
+
+wget https://rocrail.net/software/rocrail-snapshot/Rocrail-3043-PiOS11-ARMHF.deb
+
+https://rocrail.net/software/rocrail-snapshot/history/Rocrail-3043-PiOS11-ARMHF.zip
