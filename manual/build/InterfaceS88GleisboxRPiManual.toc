@@ -1,2 +1,3 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{}%
 \contentsline {section}{\numberline {2}Setup of CAN-interface}{4}{}%
+\contentsline {section}{\numberline {3}PCB Description}{5}{}%
