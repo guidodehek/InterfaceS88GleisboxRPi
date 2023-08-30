@@ -34,7 +34,7 @@
 
   (setup
     (pad_to_mask_clearance 0)
-    (grid_origin 111.24 91.68)
+    (grid_origin 100.572 95.744)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
@@ -2956,6 +2956,12 @@
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp f6d13b4c-0916-4d63-92eb-e97195bada51))
   (gr_text "Interface S88 - Gleisbox - RPi\nr2.0 30-08-2023\nGuido de Hek" (at 131 56.1 90) (layer "B.SilkS") (tstamp 0dc33c1f-d2bc-434c-ad23-83863856b792)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left mirror))
+  )
+  (gr_text "+" (at 100.064 95.236 90) (layer "F.SilkS") (tstamp ba9729d7-cf04-4d89-b326-64b490024457)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text "-" (at 100.064 90.029 90) (layer "F.SilkS") (tstamp dd38e175-a069-43f1-84f4-8b0eb62321ee)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text "S88N - 5V" (at 102.604 103.364 90) (layer "F.SilkS") (tstamp e6a365fd-6097-4b34-a4df-2f0f7b5c12cd)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
