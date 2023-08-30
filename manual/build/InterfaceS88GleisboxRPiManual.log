@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  18 APR 2023 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  30 AUG 2023 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -76,46 +76,80 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \WF@box=\box51
 \WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+(C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+
+(C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box52
+\extrarowheight=\dimen146
+\NC@list=\toks20
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box53
+)
+\everycr=\toks21
+\minrowclearance=\skip66
+\rownum=\count194
+)
+(C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
 (C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count194
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count195
+\l__pdf_internal_box=\box54
 )
 (C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88GleisboxRPiManual.aux
 )
 \openout1 = `InterfaceS88GleisboxRPiManual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 (C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
-\scratchdimen=\dimen145
-\scratchbox=\box53
-\nofMPsegments=\count196
-\nofMParguments=\count197
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count198
-\MPscratchDim=\dimen146
-\MPnumerator=\count199
-\makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count196
+\scratchdimen=\dimen147
+\scratchbox=\box55
+\nofMPsegments=\count197
+\nofMParguments=\count198
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count199
+\MPscratchDim=\dimen148
+\MPnumerator=\count266
+\makeMPintoPDFobject=\count267
+\everyMPtoPDFconversion=\toks23
 )
 (C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -128,47 +162,87 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 15.
  [1
 
 {C:/Users/guido/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88GleisboxRPiManual.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `InterfaceS88GleisboxRPiManual.toc'.
 
  [2] (content/introduction.tex) [3
 
-] (content/caninterfacesetup.tex) [4]
-(content/pcbdescription.tex
+] (content/caninterfacesetup.tex
+<../figures/mobilestation2_din10.png, id=16, 453.19313pt x 210.7875pt>
+File: ../figures/mobilestation2_din10.png Graphic file (type png)
+<use ../figures/mobilestation2_din10.png>
+Package pdftex.def Info: ../figures/mobilestation2_din10.png  used on input lin
+e 10.
+(pdftex.def)             Requested size: 345.0pt x 160.4639pt.
+<../figures/oscillatorSettingsConfigTxt.png, id=18, 870.25125pt x 487.06969pt>
+File: ../figures/oscillatorSettingsConfigTxt.png Graphic file (type png)
+<use ../figures/oscillatorSettingsConfigTxt.png>
+Package pdftex.def Info: ../figures/oscillatorSettingsConfigTxt.png  used on in
+put line 21.
+(pdftex.def)             Requested size: 345.0pt x 193.09274pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../figures/rocrailServerSettings.png, id=19, 1160.83687pt x 689.57625pt>
+File: ../figures/rocrailServerSettings.png Graphic file (type png)
+<use ../figures/rocrailServerSettings.png>
+Package pdftex.def Info: ../figures/rocrailServerSettings.png  used on input li
+ne 35.
+(pdftex.def)             Requested size: 345.0pt x 204.9384pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [4 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/mobilestation2_din10.png>]
+(content/s88ninterfacesetup.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 9.
+
+) [5 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/oscillatorSettingsConfigTx
+t.png> <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailServerSettings.pn
+g>] (content/pcbdescription.tex
 
 pdfTeX warning: pdflatex.exe (file C:/Work/InterfaceS88GleisboxRPi/pcb/Interfac
 eS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-<../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf, id=19, 597.5524
+<../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf, id=29, 597.5524
 6pt x 845.07724pt>
 File: ../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf Graphic fil
 e (type pdf)
 <use ../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf>
 Package pdftex.def Info: ../../pcb/InterfaceS88GleisboxRPi/InterfaceS88Gleisbox
-RPi.pdf  used on input line 5.
+RPi.pdf  used on input line 10.
 (pdftex.def)             Requested size: 345.0pt x 487.91434pt.
-) [5 <C:/Work/InterfaceS88GleisboxRPi/pcb/InterfaceS88GleisboxRPi/InterfaceS88G
-leisboxRPi.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [6] [7 <C:/Work/InterfaceS88GleisboxRPi/pcb/InterfaceS88GleisboxRPi/Interface
+S88GleisboxRPi.pdf>]
 (C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88GleisboxRPiManual.aux
 ) ) 
 Here is how much of TeX's memory you used:
- 1538 strings out of 476331
- 28087 string characters out of 5787765
- 1850660 words of memory out of 5000000
- 21985 multiletter control sequences out of 15000+600000
- 516534 words of font info for 46 fonts, out of 8000000 for 9000
+ 2215 strings out of 476331
+ 38056 string characters out of 5787765
+ 1854660 words of memory out of 5000000
+ 22637 multiletter control sequences out of 15000+600000
+ 516841 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,62p,255b,226s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,9n,62p,262b,229s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb><C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts/type1/
@@ -176,9 +250,9 @@ public/amsfonts/cm/cmr10.pfb><C:/Users/guido/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/guido/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 Output written on C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88Glei
-sboxRPiManual.pdf (5 pages, 224697 bytes).
+sboxRPiManual.pdf (7 pages, 711748 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
