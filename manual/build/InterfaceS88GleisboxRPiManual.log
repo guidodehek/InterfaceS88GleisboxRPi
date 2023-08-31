@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  31 AUG 2023 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  31 AUG 2023 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,19 +388,16 @@ r zxvf bcm2835-
 pdfTeX warning: pdflatex.exe (file C:/Work/InterfaceS88GleisboxRPi/pcb/Interfac
 eS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-<../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf, id=107, 597.552
-46pt x 845.07724pt>
+<../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf, id=107, 614.295
+pt x 794.97pt>
 File: ../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf Graphic fil
 e (type pdf)
 <use ../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf>
 Package pdftex.def Info: ../../pcb/InterfaceS88GleisboxRPi/InterfaceS88Gleisbox
 RPi.pdf  used on input line 9.
-(pdftex.def)             Requested size: 345.0pt x 487.91434pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [8] [9 <C:/Work/InterfaceS88GleisboxRPi/pcb/InterfaceS88GleisboxRPi/Interface
-S88GleisboxRPi.pdf>]
+(pdftex.def)             Requested size: 345.0pt x 446.4781pt.
+) [8 <C:/Work/InterfaceS88GleisboxRPi/pcb/InterfaceS88GleisboxRPi/InterfaceS88G
+leisboxRPi.pdf>]
 (C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88GleisboxRPiManual.aux
 )
 Package rerunfilecheck Info: File `InterfaceS88GleisboxRPiManual.out' has not c
@@ -408,8 +405,8 @@ hanged.
 (rerunfilecheck)             Checksum: F5D0F877055D480C63AE374E376AA716;1642.
  ) 
 Here is how much of TeX's memory you used:
- 9044 strings out of 476331
- 147264 string characters out of 5787765
+ 9043 strings out of 476331
+ 147258 string characters out of 5787765
  1856660 words of memory out of 5000000
  29328 multiletter control sequences out of 15000+600000
  517009 words of font info for 48 fonts, out of 8000000 for 9000
@@ -423,9 +420,9 @@ ublic/amsfonts/cm/cmr10.pfb><C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts
 eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/guido/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88Glei
-sboxRPiManual.pdf (9 pages, 739434 bytes).
+sboxRPiManual.pdf (8 pages, 747436 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
