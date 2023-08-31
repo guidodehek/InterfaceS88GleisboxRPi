@@ -1,0 +1,25 @@
+\section{Setup of the Raspberry Pi}
+t.b.d.
+
+\subsection{Shutdown Button}
+	
+% https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
+
+A button can be connected to the system to simplify the process of shutting the system down. First of all, a pushbutton must be connected between GPIO3 (header pin 5) and GND (e.g. header pin 6). \\
+
+Next, the following script must be installed:
+
+\begin{verbatim}
+	git clone https://github.com/Howchoo/pi-power-button.git
+	
+	./pi-power-button/script/install
+\end{verbatim}
+
+Uninstalling the script can be done via:
+
+\begin{verbatim}
+	./pi-power-button/script/uninstall
+\end{verbatim}
+
+Note: warning about pull-up resistor can be neglected.
+

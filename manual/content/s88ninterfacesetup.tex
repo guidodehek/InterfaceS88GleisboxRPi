@@ -45,6 +45,10 @@ sudo ./s88udp-rpi -v -f -c "17,22,23,24" -m 1
 
 Arguments behind option -c are the gpio ports. The amount of S88 modules is set using option -m.
 
+To test if the udp ports are assigned for use by Rocrail:
+sudo netstat -autpn | egrep "Proto|157"
+
+The PID "Rocrail" should be displayed.
 
 %% setup bmc
 http://www.airspayce.com/mikem/bcm2835/bcm2835-1.63.tar.gz 
