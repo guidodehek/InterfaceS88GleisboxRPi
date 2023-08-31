@@ -23,3 +23,16 @@ Uninstalling the script can be done via:
 
 Note: warning about pull-up resistor can be neglected.
 
+\subsection{Install BCM2835 v1.63}
+Install BCM2835-1.63 so that the pin IO on the Raspberry Pi can be used:
+%% setup bmc
+\begin{verbatim}
+	http://www.airspayce.com/mikem/bcm2835/bcm2835-1.63.tar.gz 
+	
+	tar zxvf bcm2835-1.63.tar.gz
+	
+	cd bcm2835-1.63
+	
+	make && sudo make install
+\end{verbatim}
+
