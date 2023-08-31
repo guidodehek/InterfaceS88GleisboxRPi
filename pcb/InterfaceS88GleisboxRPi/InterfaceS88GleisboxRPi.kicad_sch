@@ -6,8 +6,8 @@
 
   (title_block
     (title "InterfaceS88GleisboxRPi")
-    (date "2023-01-06")
-    (rev "1.1")
+    (date "2023-08-30")
+    (rev "2.0")
     (comment 1 "and S88 via Rocrail.")
     (comment 2 "Interface pcb for controlling Märklin model railway using the Gleisbox (60116)")
     (comment 3 "Guido de Hek")
@@ -3678,31 +3678,6 @@
     )
   )
 
-  (symbol (lib_id "power:GNDD") (at 130.81 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 33e58c07-4d72-4deb-873f-70ef355130a9)
-    (property "Reference" "#PWR036" (at 130.81 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDD" (at 130.81 194.31 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 130.81 189.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 130.81 189.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a03d963a-f017-4fd7-a7d2-f60689554148))
-    (instances
-      (project "InterfaceS88GleisboxRPi"
-        (path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
-          (reference "#PWR036") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+5V") (at 130.81 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a9e46e4-30e6-406e-b5dc-53ce4e48d507)
@@ -3749,6 +3724,31 @@
       (project "InterfaceS88GleisboxRPi"
         (path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
           (reference "C7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 130.81 189.23 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 47e751ee-45d6-4e49-9e0b-40fa1ad302e4)
+    (property "Reference" "#PWR010" (at 130.81 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 130.81 194.31 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 130.81 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 130.81 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 48b57484-6ef2-4d06-a0ac-e97d6583b3c2))
+    (instances
+      (project "InterfaceS88GleisboxRPi"
+        (path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
+          (reference "#PWR010") (unit 1)
         )
       )
     )
