@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  4 NOV 2023 14:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  4 NOV 2023 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,52 +344,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-) [5] (content/caninterfacesetup.tex
-<../figures/mobilestation2_din10.png, id=110, 453.19313pt x 210.7875pt>
+) [5] [6] (content/caninterfacesetup.tex
+<../figures/mobilestation2_din10.png, id=114, 453.19313pt x 210.7875pt>
 File: ../figures/mobilestation2_din10.png Graphic file (type png)
 <use ../figures/mobilestation2_din10.png>
 Package pdftex.def Info: ../figures/mobilestation2_din10.png  used on input lin
 e 10.
 (pdftex.def)             Requested size: 345.0pt x 160.4639pt.
-<../figures/oscillatorSettingsConfigTxt.png, id=112, 870.25125pt x 487.06969pt>
+ [7 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/mobilestation2_din10.png>]
+Overfull \hbox (69.74638pt too wide) in paragraph at lines 61--61
+[]\OT1/cmtt/m/n/10 unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqu
+euelen 10  (UNSPEC)[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+[8]
+Overfull \hbox (5.7414pt too wide) in paragraph at lines 122--123
+[]\OT1/cmr/m/n/10 Now, make sure that can0 starts up au-to-mat-i-cally. Open /e
+tc/network/interfaces: 
+ []
+
+<../figures/oscillatorSettingsConfigTxt.png, id=127, 870.25125pt x 487.06969pt>
 
 File: ../figures/oscillatorSettingsConfigTxt.png Graphic file (type png)
 <use ../figures/oscillatorSettingsConfigTxt.png>
 Package pdftex.def Info: ../figures/oscillatorSettingsConfigTxt.png  used on in
-put line 21.
+put line 140.
 (pdftex.def)             Requested size: 345.0pt x 193.09274pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/rocrailServerSettings.png, id=113, 1160.83687pt x 689.57625pt>
+<../figures/rocrailServerSettings.png, id=128, 1160.83687pt x 689.57625pt>
 File: ../figures/rocrailServerSettings.png Graphic file (type png)
 <use ../figures/rocrailServerSettings.png>
 Package pdftex.def Info: ../figures/rocrailServerSettings.png  used on input li
-ne 36.
+ne 155.
 (pdftex.def)             Requested size: 345.0pt x 204.9384pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [6 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/mobilestation2_din10.png>]
-(content/s88ninterfacesetup.tex
+) [9] (content/s88ninterfacesetup.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 8.
 
-[7 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/oscillatorSettingsConfigTxt.
-png> <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailServerSettings.png>
-]
+[10 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/oscillatorSettingsConfigTxt
+.png> <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailServerSettings.png
+>]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-) [8] (content/rocrailsetup.tex
-<../figures/rocrailcontrollersettings/rocrail_controller_mbus_S88n.png, id=134,
+) [11] (content/rocrailsetup.tex
+<../figures/rocrailcontrollersettings/rocrail_controller_mbus_S88n.png, id=146,
  709.14937pt x 426.09187pt>
 File: ../figures/rocrailcontrollersettings/rocrail_controller_mbus_S88n.png Gra
 phic file (type png)
@@ -397,7 +412,7 @@ phic file (type png)
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/rocrail_controlle
 r_mbus_S88n.png  used on input line 10.
 (pdftex.def)             Requested size: 345.0pt x 207.29796pt.
-<../figures/rocrailcontrollersettings/generalcontrollersettings.png, id=135, 75
+<../figures/rocrailcontrollersettings/generalcontrollersettings.png, id=147, 75
 2.8125pt x 414.04688pt>
 File: ../figures/rocrailcontrollersettings/generalcontrollersettings.png Graphi
 c file (type png)
@@ -409,7 +424,7 @@ settings.png  used on input line 17.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/rocrailcontrollersettings/mbus_settings_tab1.png, id=136, 360.59718
+<../figures/rocrailcontrollersettings/mbus_settings_tab1.png, id=148, 360.59718
 pt x 469.755pt>
 File: ../figures/rocrailcontrollersettings/mbus_settings_tab1.png Graphic file 
 (type png)
@@ -420,7 +435,7 @@ Package pdftex.def Info: ../figures/rocrailcontrollersettings/mbus_settings_tab
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/rocrailcontrollersettings/mbus_settings_tab2.png, id=137, 364.36125
+<../figures/rocrailcontrollersettings/mbus_settings_tab2.png, id=149, 364.36125
 pt x 474.27188pt>
 File: ../figures/rocrailcontrollersettings/mbus_settings_tab2.png Graphic file 
 (type png)
@@ -431,7 +446,7 @@ Package pdftex.def Info: ../figures/rocrailcontrollersettings/mbus_settings_tab
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/rocrailcontrollersettings/mbus_settings_tab3.png, id=138, 360.59718
+<../figures/rocrailcontrollersettings/mbus_settings_tab3.png, id=150, 360.59718
 pt x 474.27188pt>
 File: ../figures/rocrailcontrollersettings/mbus_settings_tab3.png Graphic file 
 (type png)
@@ -442,7 +457,7 @@ Package pdftex.def Info: ../figures/rocrailcontrollersettings/mbus_settings_tab
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/rocrailcontrollersettings/S88N_settings_tab1.png, id=139, 363.60844
+<../figures/rocrailcontrollersettings/S88N_settings_tab1.png, id=151, 363.60844
 pt x 472.76625pt>
 File: ../figures/rocrailcontrollersettings/S88N_settings_tab1.png Graphic file 
 (type png)
@@ -453,7 +468,7 @@ Package pdftex.def Info: ../figures/rocrailcontrollersettings/S88N_settings_tab
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/rocrailcontrollersettings/S88N_settings_tab2.png, id=140, 360.59718
+<../figures/rocrailcontrollersettings/S88N_settings_tab2.png, id=152, 360.59718
 pt x 473.51906pt>
 File: ../figures/rocrailcontrollersettings/S88N_settings_tab2.png Graphic file 
 (type png)
@@ -464,7 +479,7 @@ Package pdftex.def Info: ../figures/rocrailcontrollersettings/S88N_settings_tab
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/rocrailcontrollersettings/S88N_settings_tab3.png, id=141, 359.84438
+<../figures/rocrailcontrollersettings/S88N_settings_tab3.png, id=153, 359.84438
 pt x 473.51906pt>
 File: ../figures/rocrailcontrollersettings/S88N_settings_tab3.png Graphic file 
 (type png)
@@ -475,13 +490,13 @@ Package pdftex.def Info: ../figures/rocrailcontrollersettings/S88N_settings_tab
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [9 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailcontrollersettings/
-rocrail_controller_mbus_S88n.png>] (content/pcbdescription.tex
+) [12 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailcontrollersettings
+/rocrail_controller_mbus_S88n.png>] (content/pcbdescription.tex
 
 pdfTeX warning: pdflatex.exe (file C:/Work/InterfaceS88GleisboxRPi/pcb/Interfac
 eS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-<../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf, id=148, 614.295
+<../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf, id=160, 614.295
 pt x 794.97pt>
 File: ../../pcb/InterfaceS88GleisboxRPi/InterfaceS88GleisboxRPi.pdf Graphic fil
 e (type pdf)
@@ -492,31 +507,31 @@ RPi.pdf  used on input line 6.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [10 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailcontrollersettings
-/generalcontrollersettings.png>] [11 <C:/Work/InterfaceS88GleisboxRPi/manual/fi
-gures/rocrailcontrollersettings/mbus_settings_tab1.png>] [12 <C:/Work/Interface
+) [13 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailcontrollersettings
+/generalcontrollersettings.png>] [14 <C:/Work/InterfaceS88GleisboxRPi/manual/fi
+gures/rocrailcontrollersettings/mbus_settings_tab1.png>] [15 <C:/Work/Interface
 S88GleisboxRPi/manual/figures/rocrailcontrollersettings/mbus_settings_tab2.png>
-] [13 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailcontrollersettings
-/mbus_settings_tab3.png>] [14 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/r
-ocrailcontrollersettings/S88N_settings_tab1.png>] [15 <C:/Work/InterfaceS88Glei
+] [16 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailcontrollersettings
+/mbus_settings_tab3.png>] [17 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/r
+ocrailcontrollersettings/S88N_settings_tab1.png>] [18 <C:/Work/InterfaceS88Glei
 sboxRPi/manual/figures/rocrailcontrollersettings/S88N_settings_tab2.png>]
-[16 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailcontrollersettings/S
-88N_settings_tab3.png>] [17 <C:/Work/InterfaceS88GleisboxRPi/pcb/InterfaceS88Gl
+[19 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailcontrollersettings/S
+88N_settings_tab3.png>] [20 <C:/Work/InterfaceS88GleisboxRPi/pcb/InterfaceS88Gl
 eisboxRPi/InterfaceS88GleisboxRPi.pdf>]
 (C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88GleisboxRPiManual.aux
 )
 Package rerunfilecheck Info: File `InterfaceS88GleisboxRPiManual.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 2D4234C4B2E5B4D6083B03D05D3D7750;2223.
+(rerunfilecheck)             Checksum: 0A2807218DFF73326646BA7B1C9E89B2;2223.
  ) 
 Here is how much of TeX's memory you used:
- 9138 strings out of 476331
- 151282 string characters out of 5787765
- 1857660 words of memory out of 5000000
+ 9141 strings out of 476331
+ 151303 string characters out of 5787765
+ 1859660 words of memory out of 5000000
  29389 multiletter control sequences out of 15000+600000
  517009 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,76p,621b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,76p,621b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -525,9 +540,9 @@ ublic/amsfonts/cm/cmr10.pfb><C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts
 eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/guido/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88Glei
-sboxRPiManual.pdf (17 pages, 1151247 bytes).
+sboxRPiManual.pdf (20 pages, 1159541 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
