@@ -5,7 +5,8 @@
 \contentsline {section}{\numberline {3}Setup of CAN-interface}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Connection Scheme}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Oscillator Settings}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Rocrail Server Settings}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}SRCPD}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Rocrail Server Settings}{6}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Setup of S88N-interface}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Connection Scheme}{8}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}S88UDP installation}{8}{subsection.4.2}%
