@@ -96,7 +96,7 @@ Monitor the CAN bus messages using the candump function:
 Press the stop button on the mobile station a few times. Messages should appear and they should look something like this:
 
 \begin{verbatim}
-	  can0  0036936E   [5]  00 00 00 00 11
+	can0  0036936E   [5]  00 00 00 00 11
 	can0  0030936E   [0]
 	can0  0031931F   [8]  47 44 D8 D6 01 27 00 10
 	can0  0000936E   [7]  00 00 00 00 09 00 09
@@ -135,7 +135,33 @@ Add the following lines:
 
 Use ctrl+X to stop editing, press Y and enter to save the changes.
 
-\subsection{SRCPD}
+\subsection{PiCanS88}
+The next step is to install \textit{PiCanS88} to establish the CAN and S88 connection. To install PiCanS88:
+
+\begin{verbatim}
+	cd ..
+	wget http://www.ifoedit.com/PiCanS88.tar
+	tar xvf PiCanS88.tar
+	cd PiCanS88
+	make
+\end{verbatim}
+
+Now you can start it with (where the IP would be the IP of your Rocrailserver):
+
+\begin{verbatim}
+	sudo ./PiCanS88 -f -b 192.168.0.255 -v -d 192.168.0.58 -m 1
+\end{verbatim}
+
+Explanation of possible options:
+\begin{verbatim}
+	-f (stay in forground and show details on screen)
+	-v (show details on screen)
+	-b 192.168.2.255 (broadcast address of your local home network)
+	-d 192.168.2.96 (IP address of the Computer where your Rocrail server is running)
+	-m 1 (number of connected S88 modules with 16 signals each) - (If you have modules with only 8 signals, using 2 of such in a row will be seen as one module!)
+\end{verbatim}
+
+\begin{comment}
 The CAN bus is now fully operational. SRCPD is needed to provide the interface between the can peripheral and rocrail. To install srcpd (version 2.1.6):
 
 \begin{verbatim}
@@ -166,5 +192,49 @@ Install srcpd (answer Yes when asked):
 	\caption{rocrailServerSettings.}
 	\label{fig:rocrailServerSettings}
 \end{figure}
+
+
+rust
+download wget https://siggsoftware.ch/wordpress/wp-content/uploads/2023/11/srcpd_rust_16112023.zip
+unzip srcpd_rust_16112023.zip
+install rust: curl https://sh.rustup.rs -sSf | sh (option 1, default install)
+of? toolchain: rustup toolchain install nightly
+compile program for running on target: cargo build --release (output is in the subfolder target/release)
+copy srcpd.conf to /etc/ using sudo cp -v srcpd.conf /etc/ (from location of srcpd.conf in /src/)
+set clock in /boot/config.txt; add new lines at the bottom
+set spi devices in srcpd.conf (spidev0)
+run program /srcpd_rust/target/release/srcpd
+in /boot/config ALLEEN dtparam=spi=on --> GEEN andere instellingen voor spi/can
+cd
+Instellingen srcpd.conf:
+
+[srcp]
+port = 15731
+
+[s88]
+bus = 1
+refresh = 50
+repeat = 3
+spiport = /dev/spidev0
+spimode = 2
+number_fb_1 = 1
+number_fb_2 = 0
+number_fb_3 = 0
+number_fb_4 = 0
+
+[ddl]
+bus = 5
+spiport = /dev/spidev0
+maerklin
+dcc
+mfx=1021970
+mfx_reg_count_file = /etc/srcpd.regcount
+#siggmode
+#timeout_shortcut_power_off = 10000
+shortcut_delay = 500
+#watchdog
+
+\end{comment}
+
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  4 NOV 2023 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  5 DEC 2023 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -253,7 +253,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 16.
+(C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+Package hyperref Info: Option `colorlinks' set `true' on input line 17.
 
 (C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
@@ -265,24 +269,24 @@ File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 )
 \openout1 = `InterfaceS88GleisboxRPiManual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 (C:\Users\guido\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -309,21 +313,21 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 25.
 
 (C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88GleisboxRPiManual.out
 )
 (C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88GleisboxRPiManual.out
 )
-\@outlinefile=\write3
-\openout3 = `InterfaceS88GleisboxRPiManual.out'.
+\@outlinefile=\write4
+\openout4 = `InterfaceS88GleisboxRPiManual.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
+(Font)              <6> on input line 28.
  [1
 
 {C:/Users/guido/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
@@ -333,8 +337,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
 )
-\tf@toc=\write4
-\openout4 = `InterfaceS88GleisboxRPiManual.toc'.
+\tf@toc=\write5
+\openout5 = `InterfaceS88GleisboxRPiManual.toc'.
 
  [2] (content/introduction.tex [3
 
@@ -348,8 +352,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-) [5] [6] (content/caninterfacesetup.tex
-<../figures/mobilestation2_din10.png, id=114, 453.19313pt x 210.7875pt>
+[5]) [6] (content/caninterfacesetup.tex
+<../figures/mobilestation2_din10.png, id=119, 453.19313pt x 210.7875pt>
 File: ../figures/mobilestation2_din10.png Graphic file (type png)
 <use ../figures/mobilestation2_din10.png>
 Package pdftex.def Info: ../figures/mobilestation2_din10.png  used on input lin
@@ -372,45 +376,42 @@ Overfull \hbox (5.7414pt too wide) in paragraph at lines 122--123
 tc/network/interfaces: 
  []
 
-<../figures/oscillatorSettingsConfigTxt.png, id=127, 870.25125pt x 487.06969pt>
+[9]
+Overfull \hbox (80.24629pt too wide) in paragraph at lines 162--162
+[]\OT1/cmtt/m/n/10 -d 192.168.2.96 (IP address of the Computer where your Rocra
+il server is running)[] 
+ []
 
-File: ../figures/oscillatorSettingsConfigTxt.png Graphic file (type png)
-<use ../figures/oscillatorSettingsConfigTxt.png>
-Package pdftex.def Info: ../figures/oscillatorSettingsConfigTxt.png  used on in
-put line 140.
-(pdftex.def)             Requested size: 345.0pt x 193.09274pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (479.24281pt too wide) in paragraph at lines 162--162
+[]\OT1/cmtt/m/n/10 -m 1 (number of connected S88 modules with 16 signals each) 
+- (If you have modules with only 8 signals, using 2 of such in a row will be se
+en as one module!)[] 
+ []
 
-<../figures/rocrailServerSettings.png, id=128, 1160.83687pt x 689.57625pt>
-File: ../figures/rocrailServerSettings.png Graphic file (type png)
-<use ../figures/rocrailServerSettings.png>
-Package pdftex.def Info: ../figures/rocrailServerSettings.png  used on input li
-ne 155.
-(pdftex.def)             Requested size: 345.0pt x 204.9384pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [9] (content/s88ninterfacesetup.tex
+Excluding 'comment' comment.) [10] (content/s88ninterfacesetup.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 8.
 
-[10 <C:/Work/InterfaceS88GleisboxRPi/manual/figures/oscillatorSettingsConfigTxt
-.png> <C:/Work/InterfaceS88GleisboxRPi/manual/figures/rocrailServerSettings.png
->]
+
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 ) [11] (content/rocrailsetup.tex
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 10--10
+[]\OT1/cmtt/m/n/10 wget https://wiki.rocrail.net/rocrail-snapshot/Rocrail-PiOS1
+1-ARM64.zip[] 
+ []
+
 <../figures/rocrailcontrollersettings/rocrail_controller_mbus_S88n.png, id=146,
  709.14937pt x 426.09187pt>
 File: ../figures/rocrailcontrollersettings/rocrail_controller_mbus_S88n.png Gra
 phic file (type png)
 <use ../figures/rocrailcontrollersettings/rocrail_controller_mbus_S88n.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/rocrail_controlle
-r_mbus_S88n.png  used on input line 10.
+r_mbus_S88n.png  used on input line 18.
 (pdftex.def)             Requested size: 345.0pt x 207.29796pt.
 <../figures/rocrailcontrollersettings/generalcontrollersettings.png, id=147, 75
 2.8125pt x 414.04688pt>
@@ -418,9 +419,8 @@ File: ../figures/rocrailcontrollersettings/generalcontrollersettings.png Graphi
 c file (type png)
 <use ../figures/rocrailcontrollersettings/generalcontrollersettings.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/generalcontroller
-settings.png  used on input line 17.
+settings.png  used on input line 25.
 (pdftex.def)             Requested size: 345.0pt x 189.75627pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -430,7 +430,7 @@ File: ../figures/rocrailcontrollersettings/mbus_settings_tab1.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/mbus_settings_tab1.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/mbus_settings_tab
-1.png  used on input line 24.
+1.png  used on input line 32.
 (pdftex.def)             Requested size: 345.0pt x 449.43292pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -441,7 +441,7 @@ File: ../figures/rocrailcontrollersettings/mbus_settings_tab2.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/mbus_settings_tab2.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/mbus_settings_tab
-2.png  used on input line 31.
+2.png  used on input line 39.
 (pdftex.def)             Requested size: 345.0pt x 449.08665pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -452,7 +452,7 @@ File: ../figures/rocrailcontrollersettings/mbus_settings_tab3.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/mbus_settings_tab3.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/mbus_settings_tab
-3.png  used on input line 38.
+3.png  used on input line 46.
 (pdftex.def)             Requested size: 345.0pt x 453.7544pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -463,7 +463,7 @@ File: ../figures/rocrailcontrollersettings/S88N_settings_tab1.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/S88N_settings_tab1.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/S88N_settings_tab
-1.png  used on input line 45.
+1.png  used on input line 53.
 (pdftex.def)             Requested size: 345.0pt x 448.58435pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -474,7 +474,7 @@ File: ../figures/rocrailcontrollersettings/S88N_settings_tab2.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/S88N_settings_tab2.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/S88N_settings_tab
-2.png  used on input line 52.
+2.png  used on input line 60.
 (pdftex.def)             Requested size: 345.0pt x 453.03412pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -485,7 +485,7 @@ File: ../figures/rocrailcontrollersettings/S88N_settings_tab3.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/S88N_settings_tab3.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/S88N_settings_tab
-3.png  used on input line 59.
+3.png  used on input line 67.
 (pdftex.def)             Requested size: 345.0pt x 454.02399pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -522,14 +522,14 @@ eisboxRPi/InterfaceS88GleisboxRPi.pdf>]
 )
 Package rerunfilecheck Info: File `InterfaceS88GleisboxRPiManual.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 0A2807218DFF73326646BA7B1C9E89B2;2223.
+(rerunfilecheck)             Checksum: 66293CE0469FB789DD86C11216FDCC48;2356.
  ) 
 Here is how much of TeX's memory you used:
- 9141 strings out of 476331
- 151303 string characters out of 5787765
+ 9181 strings out of 476331
+ 151834 string characters out of 5787765
  1859660 words of memory out of 5000000
- 29389 multiletter control sequences out of 15000+600000
- 517009 words of font info for 48 fonts, out of 8000000 for 9000
+ 29427 multiletter control sequences out of 15000+600000
+ 517355 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,76p,621b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -538,11 +538,12 @@ fonts/cm/cmbx12.pfb><C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb><C:/Users/guido/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr12.pfb><C:/Users/guido/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/guido/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/guido/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88Glei
-sboxRPiManual.pdf (20 pages, 1159541 bytes).
+sboxRPiManual.pdf (20 pages, 761120 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

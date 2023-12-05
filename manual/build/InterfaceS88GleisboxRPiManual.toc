@@ -2,14 +2,15 @@
 \contentsline {section}{\numberline {2}Setup of the Raspberry Pi}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Install BCM2835 v1.73}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Shutdown Button}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Remote Desktop Protocol}{6}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Setup of CAN-interface}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Connection Scheme}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Oscillator Settings}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}SRCPD}{9}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Rocrail Server Settings}{9}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Setup of S88N-interface}{10}{section.4}%
+\contentsline {subsection}{\numberline {3.3}PiCanS88}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Setup of S88N-interface}{11}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Connection Scheme}{11}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}S88UDP installation}{11}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Setup of Rocrail}{12}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Rocrail Controller Settings}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.1}Installation}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Rocrail Controller Settings}{12}{subsection.5.2}%
 \contentsline {section}{\numberline {6}PCB Description}{13}{section.6}%
