@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  5 DEC 2023 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.18)  6 DEC 2023 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -411,7 +411,7 @@ File: ../figures/rocrailcontrollersettings/rocrail_controller_mbus_S88n.png Gra
 phic file (type png)
 <use ../figures/rocrailcontrollersettings/rocrail_controller_mbus_S88n.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/rocrail_controlle
-r_mbus_S88n.png  used on input line 18.
+r_mbus_S88n.png  used on input line 24.
 (pdftex.def)             Requested size: 345.0pt x 207.29796pt.
 <../figures/rocrailcontrollersettings/generalcontrollersettings.png, id=147, 75
 2.8125pt x 414.04688pt>
@@ -419,7 +419,7 @@ File: ../figures/rocrailcontrollersettings/generalcontrollersettings.png Graphi
 c file (type png)
 <use ../figures/rocrailcontrollersettings/generalcontrollersettings.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/generalcontroller
-settings.png  used on input line 25.
+settings.png  used on input line 31.
 (pdftex.def)             Requested size: 345.0pt x 189.75627pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -430,7 +430,7 @@ File: ../figures/rocrailcontrollersettings/mbus_settings_tab1.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/mbus_settings_tab1.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/mbus_settings_tab
-1.png  used on input line 32.
+1.png  used on input line 38.
 (pdftex.def)             Requested size: 345.0pt x 449.43292pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -441,7 +441,7 @@ File: ../figures/rocrailcontrollersettings/mbus_settings_tab2.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/mbus_settings_tab2.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/mbus_settings_tab
-2.png  used on input line 39.
+2.png  used on input line 45.
 (pdftex.def)             Requested size: 345.0pt x 449.08665pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -452,7 +452,7 @@ File: ../figures/rocrailcontrollersettings/mbus_settings_tab3.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/mbus_settings_tab3.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/mbus_settings_tab
-3.png  used on input line 46.
+3.png  used on input line 52.
 (pdftex.def)             Requested size: 345.0pt x 453.7544pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -463,7 +463,7 @@ File: ../figures/rocrailcontrollersettings/S88N_settings_tab1.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/S88N_settings_tab1.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/S88N_settings_tab
-1.png  used on input line 53.
+1.png  used on input line 59.
 (pdftex.def)             Requested size: 345.0pt x 448.58435pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -474,7 +474,7 @@ File: ../figures/rocrailcontrollersettings/S88N_settings_tab2.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/S88N_settings_tab2.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/S88N_settings_tab
-2.png  used on input line 60.
+2.png  used on input line 66.
 (pdftex.def)             Requested size: 345.0pt x 453.03412pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -485,7 +485,7 @@ File: ../figures/rocrailcontrollersettings/S88N_settings_tab3.png Graphic file
 (type png)
 <use ../figures/rocrailcontrollersettings/S88N_settings_tab3.png>
 Package pdftex.def Info: ../figures/rocrailcontrollersettings/S88N_settings_tab
-3.png  used on input line 67.
+3.png  used on input line 73.
 (pdftex.def)             Requested size: 345.0pt x 454.02399pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -541,7 +541,7 @@ eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/guido/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/guido/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on C:\Work\InterfaceS88GleisboxRPi\manual\build\InterfaceS88Glei
-sboxRPiManual.pdf (20 pages, 761120 bytes).
+sboxRPiManual.pdf (20 pages, 761113 bytes).
 PDF statistics:
  255 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
