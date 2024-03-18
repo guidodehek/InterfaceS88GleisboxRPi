@@ -1,5 +1,5 @@
 \section{Setup of CAN-interface}
-t.b.d.
+Instructions for setting up the CAN-interface.
 
 \subsection{Connection Scheme}
 The CAN-bus shall be connected to the Gleisbox as depicted in figure~\ref{fig:mobilestation2_din10}. The pin 1 (power supply) does not have to be connected.
@@ -24,6 +24,7 @@ Open config.txt:
 In the section for optional hardware interfaces add (if not present):
 
 \begin{verbatim}
+	dtparam=i2c_arm=off
 	dtparam=spi=on
 	dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
 	dtoverlay=spi-lcs
@@ -195,8 +196,10 @@ Install srcpd (answer Yes when asked):
 
 
 rust
-download wget https://siggsoftware.ch/wordpress/wp-content/uploads/2023/11/srcpd_rust_16112023.zip
-unzip srcpd_rust_16112023.zip
+
+download wget https://siggsoftware.ch/wordpress/wp-content/uploads/2023/12/srcpd_rust_1.4.0.zip
+
+unzip srcpd_rust_1.4.0.zip
 install rust: curl https://sh.rustup.rs -sSf | sh (option 1, default install)
 of? toolchain: rustup toolchain install nightly
 compile program for running on target: cargo build --release (output is in the subfolder target/release)
