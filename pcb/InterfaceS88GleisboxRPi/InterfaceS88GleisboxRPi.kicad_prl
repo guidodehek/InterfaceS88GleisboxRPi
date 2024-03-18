@@ -67,6 +67,12 @@
     "visible_layers": "00011ff_80000001",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "InterfaceS88GleisboxRPi.kicad_prl",
     "version": 3
