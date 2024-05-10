@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "InterfaceS88GleisboxRPi")
-		(date "2024-03-18")
+		(date "2024-05-09")
 		(rev "2.0")
 		(comment 1 "and S88 via Rocrail.")
 		(comment 2 "Interface pcb for controlling Märklin model railway using the Gleisbox (60116)")
@@ -2252,145 +2252,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2969,150 +2830,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:B130-E3"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "B130-E3"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "B130-E3_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "B130-E3_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5167,7 +4884,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM317L_TO92"
+		(symbol "Regulator_Linear:LM317_SOT-223"
 			(pin_names
 				(offset 0.254)
 			)
@@ -5182,7 +4899,7 @@
 					)
 				)
 			)
-			(property "Value" "LM317L_TO92"
+			(property "Value" "LM317_SOT-223"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -5191,8 +4908,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 0 5.715 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5201,7 +4918,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5210,7 +4927,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100mA 35V Adjustable Linear Regulator, TO-92"
+			(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5219,7 +4936,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Adjustable Voltage Regulator 100mA Positive"
+			(property "ki_keywords" "Adjustable Voltage Regulator 1A Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5228,7 +4945,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5237,7 +4954,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM317L_TO92_0_1"
+			(symbol "LM317_SOT-223_0_1"
 				(rectangle
 					(start -5.08 1.905)
 					(end 5.08 -5.08)
@@ -5250,7 +4967,7 @@
 					)
 				)
 			)
-			(symbol "LM317L_TO92_1_1"
+			(symbol "LM317_SOT-223_1_1"
 				(pin input line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -7103,6 +6820,12 @@
 		(uuid "3b2d60cb-2eb6-41d4-982f-89ddc1891aa3")
 	)
 	(junction
+		(at 236.22 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cd7222d-f659-44ef-8712-025dbed6ba4e")
+	)
+	(junction
 		(at 40.64 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7283,6 +7006,12 @@
 		(uuid "c4c694d9-fa5d-49fd-8221-be13ae3751f0")
 	)
 	(junction
+		(at 226.06 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5e5945a-f24f-4aac-9282-11a5215b5f2e")
+	)
+	(junction
 		(at 190.5 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7319,12 +7048,6 @@
 		(uuid "de6fd6a2-fb6d-47cf-a676-3e083dce69ab")
 	)
 	(junction
-		(at 226.06 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e37d8589-79ce-4f76-81ff-9941d3d5e9ba")
-	)
-	(junction
 		(at 228.6 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7341,12 +7064,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f756c1ca-8ab0-4dbb-b0b0-244d3ed71b80")
-	)
-	(junction
-		(at 228.6 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f97ba0fe-2302-46be-a0aa-4e63b0428e64")
 	)
 	(no_connect
 		(at 83.82 45.72)
@@ -7565,16 +7282,6 @@
 			(type default)
 		)
 		(uuid "03557195-a63c-406f-8e8c-8b16fd540260")
-	)
-	(wire
-		(pts
-			(xy 228.6 50.8) (xy 270.51 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07206731-65a8-467a-b5a3-715b5c5a9173")
 	)
 	(wire
 		(pts
@@ -8289,6 +7996,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 38.1) (xy 226.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53dffc6e-4cf5-4cc1-b608-195670e300de")
+	)
+	(wire
+		(pts
 			(xy 104.14 105.41) (xy 104.14 106.68)
 		)
 		(stroke
@@ -8319,7 +8036,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 44.45) (xy 228.6 50.8)
+			(xy 236.22 46.99) (xy 236.22 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8329,7 +8046,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 106.68) (xy 46.99 106.68)
+			(xy 38.1 106.68) (xy 57.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8561,6 +8278,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 38.1) (xy 226.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbec944-d467-4f17-9bf5-e2632a4c6609")
+	)
+	(wire
+		(pts
 			(xy 68.58 127) (xy 68.58 128.27)
 		)
 		(stroke
@@ -8631,7 +8358,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 50.8) (xy 220.98 50.8)
+			(xy 220.98 50.8) (xy 236.22 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8678,6 +8405,16 @@
 			(type default)
 		)
 		(uuid "794831ad-dd52-40ed-9daa-2aaf0b64b3c7")
+	)
+	(wire
+		(pts
+			(xy 234.95 38.1) (xy 236.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79702088-500f-4927-901c-bcc7df64ef88")
 	)
 	(wire
 		(pts
@@ -8848,16 +8585,6 @@
 			(type default)
 		)
 		(uuid "871891f3-8f71-4bee-9204-d8c4289f7d7e")
-	)
-	(wire
-		(pts
-			(xy 54.61 106.68) (xy 57.15 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8809a94f-682a-437f-8e76-8b6da84609e7")
 	)
 	(wire
 		(pts
@@ -9191,6 +8918,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 50.8) (xy 270.51 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4704c5-8c9c-434a-a56b-fdfc23e1b7cf")
+	)
+	(wire
+		(pts
 			(xy 222.25 53.34) (xy 222.25 54.61)
 		)
 		(stroke
@@ -9398,16 +9135,6 @@
 			(type default)
 		)
 		(uuid "c5676c01-adc7-4b3e-a215-9e74c5104bbf")
-	)
-	(wire
-		(pts
-			(xy 226.06 36.83) (xy 226.06 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca8fc5f1-b796-43f3-97b6-c363cf6c7a2e")
 	)
 	(wire
 		(pts
@@ -9628,6 +9355,16 @@
 			(type default)
 		)
 		(uuid "e144e1ab-da5b-43b1-a7b8-e7ab51f8af7c")
+	)
+	(wire
+		(pts
+			(xy 236.22 38.1) (xy 236.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1645257-4d99-4a66-ac79-aa37f8962544")
 	)
 	(wire
 		(pts
@@ -15562,7 +15299,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 228.6 40.64 0)
+		(at 236.22 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15571,7 +15308,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7026a4f-d86b-4a4e-93c4-6e804f8dcb18")
 		(property "Reference" "R1"
-			(at 231.14 39.3699 0)
+			(at 238.76 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15580,7 +15317,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 231.14 41.9099 0)
+			(at 238.76 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15589,7 +15326,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 226.822 40.64 90)
+			(at 234.442 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15598,7 +15335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 40.64 0)
+			(at 236.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15607,7 +15344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 40.64 0)
+			(at 236.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16212,6 +15949,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM317_SOT-223")
+		(at 68.58 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c75487d8-bbdf-4992-9dfb-2e9f60ce3258")
+		(property "Reference" "U4"
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM317_SOT-223"
+			(at 68.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24b4ee8b-a13e-4f65-9eb4-06a9b5a8a107")
+		)
+		(pin "1"
+			(uuid "b8fcebd7-e1cf-4028-9475-80201a5dd1f6")
+		)
+		(pin "3"
+			(uuid "1025ed29-7130-4d6b-ac55-72e434c448b8")
+		)
+		(instances
+			(project "InterfaceS88GleisboxRPi"
+				(path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VD")
 		(at 173.99 134.62 0)
 		(unit 1)
@@ -16547,74 +16356,6 @@
 			(project "InterfaceS88GleisboxRPi"
 				(path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:B130-E3")
-		(at 50.8 106.68 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d91e767a-e91e-4268-9fbb-e0313f5cdcec")
-		(property "Reference" "D4"
-			(at 51.1175 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B130-E3"
-			(at 51.1175 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 50.8 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8185656-bc6a-4ad6-ac1d-259ef86e1d7d")
-		)
-		(pin "2"
-			(uuid "a009dcbc-4005-426a-b49e-e37725c7a734")
-		)
-		(instances
-			(project "InterfaceS88GleisboxRPi"
-				(path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -17089,77 +16830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 226.06 31.75 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9828215-8048-494b-8d0c-6ffa9ed02ade")
-		(property "Reference" "J3"
-			(at 231.14 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 231.14 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 226.06 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70b75cd9-82fc-4520-9cc6-cdec1517018d")
-		)
-		(pin "2"
-			(uuid "a74d5f1c-bcb2-46e0-8dde-5d7c881fab72")
-		)
-		(instances
-			(project "InterfaceS88GleisboxRPi"
-				(path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 190.5 102.87 0)
 		(unit 1)
@@ -17229,42 +16899,42 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM317L_TO92")
-		(at 68.58 106.68 0)
+		(lib_id "Device:R")
+		(at 231.14 38.1 90)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ec378fca-6abf-4614-9f3f-b878c5160d67")
-		(property "Reference" "U4"
-			(at 68.58 99.06 0)
+		(fields_autoplaced yes)
+		(uuid "ecca5775-476a-4832-9b09-d432a58b83dd")
+		(property "Reference" "R17"
+			(at 231.14 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM317L_TO92"
-			(at 68.58 101.6 0)
+		(property "Value" "0"
+			(at 231.14 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 68.58 100.965 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 231.14 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf"
-			(at 68.58 106.68 0)
+		(property "Datasheet" "~"
+			(at 231.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17273,7 +16943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 106.68 0)
+			(at 231.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17282,18 +16952,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec37fc55-0667-4c89-b7be-fcea5b3716d6")
+			(uuid "12fd7231-0327-49f5-ac46-85dd1944a049")
 		)
 		(pin "2"
-			(uuid "6ce51f92-73a2-47bb-a8d0-13362644f13e")
-		)
-		(pin "3"
-			(uuid "41e04bf3-58d8-475c-99cf-0524d0bce5f7")
+			(uuid "94801655-b7d0-4f4b-ae9a-d09f7b6c9ece")
 		)
 		(instances
 			(project "InterfaceS88GleisboxRPi"
 				(path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
-					(reference "U4")
+					(reference "R17")
 					(unit 1)
 				)
 			)
