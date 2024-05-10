@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "InterfaceS88GleisboxRPi")
-		(date "2024-05-09")
+		(date "2024-05-10")
 		(rev "2.0")
 		(comment 1 "and S88 via Rocrail.")
 		(comment 2 "Interface pcb for controlling Märklin model railway using the Gleisbox (60116)")
@@ -6874,12 +6874,6 @@
 		(uuid "70b0dc6c-2adf-4829-8871-f507152c50a9")
 	)
 	(junction
-		(at 29.21 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c9a4758-5707-443e-87ad-b7aff0638ae1")
-	)
-	(junction
 		(at 143.51 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7054,6 +7048,12 @@
 		(uuid "e3e161f9-b440-4cdc-8b19-692b4ec0005f")
 	)
 	(junction
+		(at 19.05 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec25fe42-d52f-442f-9cef-9031b5cb127c")
+	)
+	(junction
 		(at 199.39 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7226,22 +7226,16 @@
 		(uuid "e04a20ab-d2c1-4649-8d9d-653f89f5bf45")
 	)
 	(no_connect
+		(at 35.56 30.48)
+		(uuid "ef4af096-e1c0-465f-b88d-f4c791792f94")
+	)
+	(no_connect
 		(at 83.82 73.66)
 		(uuid "fcb5a343-6e0e-459e-a7ea-c4105a7b2996")
 	)
 	(no_connect
 		(at 83.82 63.5)
 		(uuid "febb7539-edd9-4b75-8bee-7cc7579840d6")
-	)
-	(wire
-		(pts
-			(xy 15.24 46.99) (xy 15.24 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003bae44-dd1c-4448-ba6a-86031ed656ae")
 	)
 	(wire
 		(pts
@@ -7495,13 +7489,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 26.67) (xy 29.21 27.94)
+			(xy 246.38 146.05) (xy 252.73 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c5b5864-3a0a-47f2-b621-662061224d01")
+		(uuid "1b9ae8ab-9a33-45b2-954c-d08f7af5a0c2")
 	)
 	(wire
 		(pts
@@ -7615,16 +7609,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 30.48) (xy 35.56 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26bd882d-3662-440c-8d81-f35e4861002f")
-	)
-	(wire
-		(pts
 			(xy 88.9 124.46) (xy 88.9 127)
 		)
 		(stroke
@@ -7652,6 +7636,16 @@
 			(type default)
 		)
 		(uuid "287afa82-7d40-4260-9774-f916de399961")
+	)
+	(wire
+		(pts
+			(xy 15.24 57.15) (xy 19.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291a27bb-8e57-4006-aba9-3b7a0734cb97")
 	)
 	(wire
 		(pts
@@ -7795,6 +7789,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 50.8) (xy 24.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af84477-83f1-4829-b0da-6d7b1c761a05")
+	)
+	(wire
+		(pts
 			(xy 198.12 101.6) (xy 195.58 101.6)
 		)
 		(stroke
@@ -7835,16 +7839,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 147.32) (xy 248.92 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4097478c-8faa-4a58-84db-1a7ff4c74abb")
-	)
-	(wire
-		(pts
 			(xy 195.58 151.13) (xy 203.2 151.13)
 		)
 		(stroke
@@ -7852,6 +7846,16 @@
 			(type default)
 		)
 		(uuid "4316ad9b-5f91-4ed1-aa83-9e24d1e4177d")
+	)
+	(wire
+		(pts
+			(xy 24.13 57.15) (xy 19.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f003d3-04cd-47c8-a8fd-aef7658b5126")
 	)
 	(wire
 		(pts
@@ -7882,16 +7886,6 @@
 			(type default)
 		)
 		(uuid "46cc5aee-aac6-4e73-80a9-04756819b88e")
-	)
-	(wire
-		(pts
-			(xy 29.21 27.94) (xy 29.21 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a1b9e72-1ad8-4850-8da3-428508bfa558")
 	)
 	(wire
 		(pts
@@ -8225,16 +8219,6 @@
 			(type default)
 		)
 		(uuid "669242fb-dab2-4b78-89f5-3317ecccf50d")
-	)
-	(wire
-		(pts
-			(xy 20.32 26.67) (xy 20.32 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6810ac52-f851-4246-9416-63bbde04d605")
 	)
 	(wire
 		(pts
@@ -8708,7 +8692,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 147.32) (xy 261.62 147.32)
+			(xy 262.89 146.05) (xy 267.97 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8865,6 +8849,16 @@
 			(type default)
 		)
 		(uuid "ac194bc3-5aef-4c96-af84-2cabfc520b7e")
+	)
+	(wire
+		(pts
+			(xy 35.56 50.8) (xy 24.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac614a90-4db8-48c0-a695-19122ca0598d")
 	)
 	(wire
 		(pts
@@ -9088,7 +9082,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 147.32) (xy 261.62 149.86)
+			(xy 267.97 146.05) (xy 267.97 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9105,16 +9099,6 @@
 			(type default)
 		)
 		(uuid "c2282cf3-4b85-4668-9fa7-cf197cde8d80")
-	)
-	(wire
-		(pts
-			(xy 20.32 27.94) (xy 29.21 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27f3511-a877-46da-aaa3-3894a78ad5c5")
 	)
 	(wire
 		(pts
@@ -9399,16 +9383,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 50.8) (xy 35.56 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7dbf0af-b683-4020-92ea-fe9b65acca1c")
-	)
-	(wire
-		(pts
 			(xy 68.58 127) (xy 88.9 127)
 		)
 		(stroke
@@ -9660,7 +9634,7 @@
 		)
 		(uuid "6d1848ba-5319-47bb-8d47-803b17071120")
 	)
-	(text "Shutdown Button (external)"
+	(text "Shutdown Button"
 		(exclude_from_sim no)
 		(at 234.95 133.35 0)
 		(effects
@@ -9684,7 +9658,7 @@
 	)
 	(global_label "Shutdown"
 		(shape input)
-		(at 246.38 147.32 180)
+		(at 246.38 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9694,7 +9668,7 @@
 		)
 		(uuid "02757621-f0b2-42da-a081-53a5f5aa818c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.3841 147.32 0)
+			(at 234.3841 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,74 +11688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 254 147.32 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c013186-3b51-47b6-8654-0b0a321395b9")
-		(property "Reference" "SW1"
-			(at 254 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Shutdown"
-			(at 254 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84f50e07-5df0-4360-9299-acc67a7761d3")
-		)
-		(pin "2"
-			(uuid "2374aa5c-7f37-4cb9-9b5f-e863fbaa47e3")
-		)
-		(instances
-			(project "InterfaceS88GleisboxRPi"
-				(path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 237.49 60.96 0)
 		(unit 1)
@@ -12499,6 +12405,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 257.81 146.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a7ab179-cc9f-4266-967b-437428275592")
+		(property "Reference" "SW1"
+			(at 257.81 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 257.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 257.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 257.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91a08d24-8368-4ab2-b60a-fb696e60f6f4")
+		)
+		(pin "1"
+			(uuid "823ebf72-e5de-4ce0-a4f4-eb74cc77f7e7")
+		)
+		(instances
+			(project "InterfaceS88GleisboxRPi"
+				(path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:KMDGX-10S-BS")
 		(at 241.3 57.15 0)
 		(unit 1)
@@ -12978,72 +12952,6 @@
 			(project "InterfaceS88GleisboxRPi"
 				(path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
 					(reference "#FLG0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 29.21 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5800fae9-ff3b-4e91-befa-5102f02dc939")
-		(property "Reference" "#PWR0102"
-			(at 29.21 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 29.21 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9b46018-2b90-4216-9fa6-5d68179fb8f4")
-		)
-		(instances
-			(project "InterfaceS88GleisboxRPi"
-				(path "/b6e23159-092f-4320-bad8-3e7d33fc6e6f"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -13652,7 +13560,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 149.86 0)
+		(at 267.97 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13661,7 +13569,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b0bd175-df02-432f-9abc-06b1551d73eb")
 		(property "Reference" "#PWR011"
-			(at 261.62 156.21 0)
+			(at 267.97 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13670,7 +13578,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 154.94 0)
+			(at 267.97 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13678,7 +13586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 149.86 0)
+			(at 267.97 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,7 +13595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 149.86 0)
+			(at 267.97 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +13604,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 149.86 0)
+			(at 267.97 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13718,16 +13626,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 15.24 46.99 0)
+		(at 19.05 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c70a5c4-9aa3-4f1c-8483-8eb21ebee76f")
 		(property "Reference" "#PWR0108"
-			(at 15.24 50.8 0)
+			(at 19.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13736,7 +13643,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 15.24 41.91 0)
+			(at 18.796 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13744,7 +13651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 46.99 0)
+			(at 19.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13753,7 +13660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 46.99 0)
+			(at 19.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13762,7 +13669,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 15.24 46.99 0)
+			(at 19.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15100,16 +15007,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 20.32 26.67 0)
+		(at 15.24 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e72f0af-940c-47ff-96ab-c0a222d6ee12")
 		(property "Reference" "#FLG0103"
-			(at 20.32 24.765 0)
+			(at 15.24 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15118,7 +15024,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 20.32 21.59 0)
+			(at 15.24 49.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15126,7 +15032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 26.67 0)
+			(at 15.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15135,7 +15041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 26.67 0)
+			(at 15.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15144,7 +15050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 26.67 0)
+			(at 15.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15952,7 +15858,7 @@
 		(lib_id "Regulator_Linear:LM317_SOT-223")
 		(at 68.58 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
