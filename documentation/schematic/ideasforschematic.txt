@@ -1,0 +1,15 @@
+1) shutdown IO -- for controlled shutdown of rpi
+2) power supply for rpi and shield
+3) s88 interface (met galvanische scheiding als de pcb GND aan de massa van de baan hangt)
+	- 12V of 5V vanuit rpi print om zo s88 isolator te ondersteunen
+      - optocoupler om van 3V3 naar 5V te gaan --> zie voorbeeld SRSE2
+4) CAN (gleisox) interface
+  	- met galvanische scheiding
+	- 9-polige sub-d, of gleisbox connector
+	- 120 ohm afsluitweerstand (kiezen met jumper of je die inschakelt)
+	- MCP2515 (of vergelijkaar) als SPI-CAN controller
+	- MCP2562 (of vergelijkbaar) als CAN transceiver
+5) i2c bus?
+6) LEDs
+	- voedingen
+	- status signalen

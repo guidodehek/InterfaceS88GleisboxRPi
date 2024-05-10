@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+%\pagenumbering{Roman}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{hyperref}
+\usepackage{comment}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+	pdftitle={Overleaf Example},
+	pdfpagemode=FullScreen,
+}
+
+\title{\huge Interface S88 Gleisbox Raspberry Pi Manual}
+\author{Guido de Hek}
+\date{\today}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+	\maketitle
+	
+	\newpage
+	
+	%% Table of contents
+	\tableofcontents
+	\clearpage
+	
+	
+	%% Introduction
+	\input{./content/introduction.tex}
+	\newpage
+	
+	%%Setup of the raspberry pi
+	\input{./content/raspberrypisetup.tex}
+	\newpage
+	
+	%%Setup of CAN-interface
+	\input{./content/caninterfacesetup.tex}
+	\newpage
+	
+	%%Setup of S88n-interface
+	\input{./content/s88ninterfacesetup.tex}
+	\newpage
+	
+	%%Setup of rocrail
+	\input{./content/rocrailsetup.tex}
+	\newpage
+
+	%%PCB description
+	\input{./content/pcbdescription.tex}
+	\newpage
+
+\end{document}

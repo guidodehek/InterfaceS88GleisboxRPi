@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NME0505SC
+D NME0505SC
+F https://power.murata.com/datasheet?/data/power/ncl/kdc_nme.pdf
+$ENDCMP
+# end doc library
