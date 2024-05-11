@@ -1,57 +1,578 @@
-(footprint "Murata-NME0505SC-0-0-0" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at -5.864999 -3.925) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)) (justify left))
-    (tstamp 1a4fa797-955b-4ddf-b9c9-c65e6125eecc)
-  )
-  (fp_text value "" (at 0 0) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    (tstamp c125ee64-715c-4359-bed1-06f537c1b375)
-  )
-  (fp_line (start -5.864999 -3.125) (end 5.865 -3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 8fee1501-04bd-426e-8d3a-9b62486ceb46))
-  (fp_line (start -5.864999 3.125) (end -5.864999 -3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 7d4f9a51-a1c3-4bfb-af61-c004e1a6ffc3))
-  (fp_line (start -5.864999 3.125) (end -4.7675 3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 79ad4e4c-fdcf-4355-b2d8-8a1e1a75fb5a))
-  (fp_line (start -2.3425 3.125) (end -2.2275 3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp fc8f7b09-176e-4774-a11f-f5e3261ba271))
-  (fp_line (start 0.1975 3.125) (end 0.3125 3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp f8a0b654-fced-4b52-bdcf-5e339d01620e))
-  (fp_line (start 2.7375 3.125) (end 2.8525 3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 789a3899-c1b9-45a1-a888-f72f08ed6ba0))
-  (fp_line (start 5.2775 3.125) (end 5.865 3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp a64861d8-6e98-40f9-a08f-130d7e9fab74))
-  (fp_line (start 5.865 3.125) (end 5.865 -3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp b3c7e8b8-0fdc-484a-a227-0fa874ce1edc))
-  (fp_circle (center -3.414999 3.87) (end -3.289999 3.87)
-    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 0aa88b0d-f018-47e9-a87e-a9b4d9b7efd6))
-  (fp_line (start -5.889998 -3.15) (end -5.889998 3.15)
-    (stroke (width 0.15) (type solid)) (layer "F.CrtYd") (tstamp a5a16f99-16a5-49eb-8232-03a38fcbe92f))
-  (fp_line (start -5.889998 3.15) (end 5.89 3.15)
-    (stroke (width 0.15) (type solid)) (layer "F.CrtYd") (tstamp 39e6f372-7e4b-41b8-b62f-ff7520297fa6))
-  (fp_line (start 5.89 -3.15) (end -5.889998 -3.15)
-    (stroke (width 0.15) (type solid)) (layer "F.CrtYd") (tstamp 2df0863e-10bc-4e34-abc9-3e38c8e63e11))
-  (fp_line (start 5.89 -3.15) (end 5.89 -3.15)
-    (stroke (width 0.15) (type solid)) (layer "F.CrtYd") (tstamp acb92b79-63ee-4330-952e-36cdee25c6ed))
-  (fp_line (start 5.89 3.15) (end 5.89 -3.15)
-    (stroke (width 0.15) (type solid)) (layer "F.CrtYd") (tstamp 30cec9b1-b8a1-4e8f-8e6a-57917870d1a4))
-  (fp_line (start -5.864998 -3.125) (end 5.865 -3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp af9a5bf7-49a5-4780-ac7f-74f5d3f56ea7))
-  (fp_line (start -5.864998 3.125) (end -5.864998 -3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 010f41bb-2d61-47fc-b1e1-92cea0b61ad2))
-  (fp_line (start 5.865 -3.125) (end 5.865 3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 6e9a12c3-db34-4253-8394-9fc2d7493569))
-  (fp_line (start 5.865 3.125) (end -5.864998 3.125)
-    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp f857721e-2ed7-44cd-a00b-f9851f6ce0ca))
-  (pad "1" thru_hole rect (at -3.555 1.92) (size 1.675 1.675) (drill 1.075) (layers "*.Cu") (tstamp e598cf32-63b9-414a-914b-46e9729c7cf9))
-  (pad "2" thru_hole circle (at -1.015 1.92) (size 1.675 1.675) (drill 1.075) (layers "*.Cu") (tstamp 464b5827-06c9-4cfe-bd27-22ed6fd747db))
-  (pad "3" thru_hole circle (at 1.525 1.92) (size 1.675 1.675) (drill 1.075) (layers "*.Cu") (tstamp ee775ebe-db2f-44ff-b26b-1635cab99ee4))
-  (pad "4" thru_hole circle (at 4.065 1.92) (size 1.675 1.675) (drill 1.075) (layers "*.Cu") (tstamp ac8b790b-5f8f-4484-baff-ab6cbeef73a0))
-  (model "eec.models/Murata_-_NME0505SC.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Murata-NME0505SC-0-0-0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U3"
+		(at -5.864999 -3.925 0)
+		(layer "F.SilkS")
+		(uuid "71b426cf-8cb9-43ce-ad57-7e3301781c49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "NME0505SC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ec027945-1c7f-433a-9bf1-bc7a4e369738")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Murata-NME0505SC-0-0-0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94d58675-887d-4040-a708-bdba9e6e9b7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://power.murata.com/datasheet?/data/power/ncl/kdc_nme.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0ac9281-48c4-4d35-b458-026a443e4727")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf65888b-5871-4104-b97d-75af0db59c5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "category" "IC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69830387-ac21-46ba-aaca-8f37d60e5e51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "device class L1" "Integrated Circuits (ICs)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0399b56-40c6-4e1e-91ff-312f149d78a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "device class L2" "Power Management ICs"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7060f57-7831-4a02-bece-d425917297ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "device class L3" "Voltage Regulators - Switching"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16a2770d-0af2-4ecd-a2a7-828fe2fb161b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "digikey description" "CONV DC/DC 1W 5VIN 5VOUT SIP SGL"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3bef28a-11c3-44e8-bccc-a968cfb211d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "digikey part number" "811-1474-5-ND"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff925eca-f548-4966-8df6-79af2ec7d066")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "height" "10.25mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ffb7d8c-ee26-41d4-a79d-fd4b4cc0ca3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "lead free" "yes"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7124c6e8-5f90-481e-98f6-6e91b4148f8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "library id" "cb89640f9f51cc7c"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08910641-8681-4f1f-bef9-91811b81d63f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer" "Murata"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5048b94e-23d9-4267-a04e-7512d1368ade")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "max supply voltage" "5.5V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "580cbb24-74a7-4beb-a6f3-56acb00262f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "min supply voltage" "4.5V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "712f3715-f8f5-406a-afb6-2ce13884d3d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mouser description" "Isolated DC/DC Converters 5V to 5V 200mA Single Output"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ee79d5b-a7c8-4499-b3fc-f7f4ffb23921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mouser part number" "580-NME0505SC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a64fd312-e6b3-4b5d-8544-6529ccd48c57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "nominal supply current" "286mA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49c46b0c-89c0-4b3c-acb0-b9059d92fe3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "number of outputs" "1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30ce9aee-82ee-4def-b1d1-8675540ff557")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "output current" "200mA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68f64e11-dd3b-4a1a-bc62-9142120768dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "output voltage" "5V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4200a712-c5dd-4baf-a605-9806e5702e5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "package" "SIP4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e98b846-2f48-4ca7-8cd7-26491356895b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "rohs" "yes"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b5a264d-ed9f-4310-8f89-64063a62298d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "switching frequency" "110kHz"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2c9812c-1db6-43e0-8e3b-f5fe38ccb8a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "switching topology" "Buck"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50830d42-beb8-448a-8991-f99ce6c432dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "temperature range high" "+85°C"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a41e2d7b-886d-46a6-b1cf-9e66022517cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "temperature range low" "-40°C"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9500a0bc-bfe4-4355-9c6a-8f9066ad0006")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.864999 -3.125)
+		(end 5.865 -3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3cee636-2389-41c9-8ea3-d19a3fd6287e")
+	)
+	(fp_line
+		(start -5.864999 3.125)
+		(end -5.864999 -3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b048bed-905f-4960-bd20-b16e18ca1046")
+	)
+	(fp_line
+		(start -5.864999 3.125)
+		(end -4.7675 3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8490d158-ffa8-4e4b-b447-eef8e2fe90f5")
+	)
+	(fp_line
+		(start -2.3425 3.125)
+		(end -2.2275 3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c16e397c-ca07-4d6e-8e1e-735562d8a78f")
+	)
+	(fp_line
+		(start 0.1975 3.125)
+		(end 0.3125 3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f696eb3d-fba8-4a79-b974-7b0b4a182821")
+	)
+	(fp_line
+		(start 2.7375 3.125)
+		(end 2.8525 3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89fcea3e-5ba9-45f5-ac6a-56c469e5bcda")
+	)
+	(fp_line
+		(start 5.2775 3.125)
+		(end 5.865 3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a95034bf-1e47-46fd-8045-7ec1991eb747")
+	)
+	(fp_line
+		(start 5.865 3.125)
+		(end 5.865 -3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e028cb4-0faa-42ad-85b9-45e116c1c651")
+	)
+	(fp_circle
+		(center -3.414999 3.87)
+		(end -3.289999 3.87)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4ea011c5-24ac-47a3-8721-7b96982132eb")
+	)
+	(fp_line
+		(start -5.889998 -3.15)
+		(end -5.889998 3.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0e22d5d-fbb0-43ad-bd0c-dad516b40424")
+	)
+	(fp_line
+		(start -5.889998 3.15)
+		(end 5.89 3.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ef0643d-302c-4c9f-8231-096845ac9fa1")
+	)
+	(fp_line
+		(start 5.89 -3.15)
+		(end -5.889998 -3.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f141c0fb-0be2-4b2b-92b3-7e8827bb7275")
+	)
+	(fp_line
+		(start 5.89 -3.15)
+		(end 5.89 -3.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af5a7d99-38ef-4370-b243-4a7a3b1fb0cc")
+	)
+	(fp_line
+		(start 5.89 3.15)
+		(end 5.89 -3.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cbded8b-0924-49ad-b5ca-9c6a55e5bcbd")
+	)
+	(fp_line
+		(start -5.864998 -3.125)
+		(end 5.865 -3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fcae6087-8704-4006-b337-e572be3b5ee1")
+	)
+	(fp_line
+		(start -5.864998 3.125)
+		(end -5.864998 -3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98feff86-1f99-4d22-b886-b7dee0824c4e")
+	)
+	(fp_line
+		(start 5.865 -3.125)
+		(end 5.865 3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "331492ce-f4ac-4ff3-be0b-5c2b1f394140")
+	)
+	(fp_line
+		(start 5.865 3.125)
+		(end -5.864998 3.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e83fed7-b58f-4633-9c0b-12442ba3e8bf")
+	)
+	(pad "1" thru_hole rect
+		(at -3.555 1.92)
+		(size 1.675 1.675)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9c19d7b-f428-4f3b-8bf5-16bb7f2706ba")
+	)
+	(pad "2" thru_hole circle
+		(at -1.015 1.92)
+		(size 1.675 1.675)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6e439acb-be56-4673-afdd-3e0b318f221b")
+	)
+	(pad "3" thru_hole circle
+		(at 1.525 1.92)
+		(size 1.675 1.675)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ef8002e-a4d7-48dd-99be-0ce6a6073efe")
+	)
+	(pad "4" thru_hole circle
+		(at 4.065 1.92)
+		(size 1.675 1.675)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cbbaf5b6-b40c-4af8-8110-ebb2b0299687")
+	)
+	(model "eec.models/Murata_-_NME0505SC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
