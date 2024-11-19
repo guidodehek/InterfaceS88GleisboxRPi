@@ -7,7 +7,7 @@ The CAN-bus shall be connected to the Gleisbox as depicted in figure~\ref{fig:mo
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1.00\linewidth]{../figures/mobilestation2_din10.png}
+	\includegraphics[width=1.00\linewidth]{./figures/mobilestation2_din10.png}
 	\caption{Pinout canbus.}
 	\label{fig:mobilestation2_din10}
 \end{figure}
@@ -137,7 +137,7 @@ Add the following lines:
 Use ctrl+X to stop editing, press Y and enter to save the changes.
 
 \subsection{PiCanS88}
-The next step is to install \textit{PiCanS88} to establish the CAN and S88 connection. To install PiCanS88:
+The next step is to install \textit{PiCanS88} to establish the CAN and connection. This tool is not used for the S88 communication, contrary to what the name suggests. To install PiCanS88:
 
 \begin{verbatim}
 	cd ..
@@ -157,8 +157,8 @@ Explanation of possible options:
 \begin{verbatim}
 	-f (stay in forground and show details on screen)
 	-v (show details on screen)
-	-b 192.168.2.255 (broadcast address of your local home network)
-	-d 192.168.2.96 (IP address of the Computer where your Rocrail server is running)
+	-b 192.168.0.255 (broadcast address of your local home network)
+	-d 192.168.0.58 (IP address of the Computer where your Rocrail server is running)
 	-m 1 (number of connected S88 modules with 16 signals each) - (If you have modules with only 8 signals, using 2 of such in a row will be seen as one module!)
 \end{verbatim}
 
