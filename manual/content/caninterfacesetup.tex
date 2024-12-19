@@ -18,7 +18,7 @@ Oscillator settings for the CAN peripheral need to be set up.
 Open config.txt:
 
 \begin{verbatim}
-	sudo nano /boot/config.txt
+	sudo nano /boot/firmware/config.txt
 \end{verbatim}
 
 In the section for optional hardware interfaces add (if not present):
@@ -77,14 +77,12 @@ Install the CAN helper tools using:
 	
 	cd can-utils
 	
-	./autogen.sh
-	
-	./configure
-	
 	make
 	
 	sudo make install
 \end{verbatim}
+
+% eerst moet je voor het make commando nog ./autogen.sh en ./configure uitvoeren. Nu blijkbaar niet meer.
 
 Now we can test the board. Connect the Gleisbox with the Mobile Station 2 and the Raspberry Pi (via the board). Power on the Gleisbox and the Mobile Station.
 
@@ -162,8 +160,10 @@ Explanation of possible options:
 	-m 1 (number of connected S88 modules with 16 signals each) - (If you have modules with only 8 signals, using 2 of such in a row will be seen as one module!)
 \end{verbatim}
 
+The CAN bus is now fully operational. 
+
 \begin{comment}
-The CAN bus is now fully operational. SRCPD is needed to provide the interface between the can peripheral and rocrail. To install srcpd (version 2.1.6):
+SRCPD is needed to provide the interface between the can peripheral and rocrail. To install srcpd (version 2.1.6):
 
 \begin{verbatim}
 	wget https://sourceforge.net/projects/srcpd/files/srcpd/2.1.6/srcpd-2.1.6.tar.gz

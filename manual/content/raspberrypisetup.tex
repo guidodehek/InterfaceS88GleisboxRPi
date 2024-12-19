@@ -3,15 +3,15 @@ Prepare an SD-card with Raspberry Pi OS. I have used the version from November 1
 
 Refer to the \href{https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2}{Raspberry Pi website} for instructions. Follow the instructions to setup the raspberry pi OS. For remote control of the raspberry pi it is possible to enable SSH and/or RDP (or VNC). Refer to the \href{https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/4}{setup instructions} for more information. There is a lot of information available about the setup and realizing SSH or VNC communication on Raspberry Pi support forums.
 
-\subsection{Install BCM2835 v1.73}
-Install BCM2835-1.73 so that the pin IO on the Raspberry Pi can be used:
+\subsection{Install BCM2835 v1.75}
+Install BCM2835-1.75 so that the pin IO on the Raspberry Pi can be used:
 %% setup bmc
 \begin{verbatim}
-	wget http://www.airspayce.com/mikem/bcm2835/bcm2835-1.73.tar.gz 
+	wget http://www.airspayce.com/mikem/bcm2835/bcm2835-1.75.tar.gz 
 	
-	tar zxvf bcm2835-1.73.tar.gz
+	tar zxvf bcm2835-1.75.tar.gz
 	
-	cd bcm2835-1.73
+	cd bcm2835-1.75
 	
 	./configure
 	
@@ -46,10 +46,19 @@ Note: warning about pull-up resistor can be neglected.
 
 \subsection{Remote Desktop Protocol}
 %See https://pimylifeup.com/raspberry-pi-remote-desktop/
-If, for some reason, RDP is preferred above VNC; run:
+If the use of RDP is required. Install the package using the following commands.
 
 \begin{verbatim}
 	sudo apt update
 	sudo apt upgrade
 	sudo apt install xrdp
 \end{verbatim}
+
+If the RDP connection cannot be established using the admin account, a new user account must be made. 
+
+\begin{verbatim}
+	sudo adduser rdpuser
+\end{verbatim}
+
+Provide a password. All the other information is not required.
+
